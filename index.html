@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="app.js" type="module"></script>
+</head>
+<body>
+<h1>💲💶 Currency Converter 🪙💰</h1>
+<div class="container converter">
+<div class="input-container">
+    <input type="number" id="amount" placeholder="Enter the amount" />
+    <select id="fromCurrency">
+        <option value="custom">Custom</option>
+    </select>
+</div>
+<div class="input-container">
+<input type="number" id="result" placeholder="Result" disabled/>
+<select id="toCurrency">
+    <option value="custom"> Custom</option>
+</select>
+</div>
+<button id="convertButton"> Convert 💵</button>
+<div class="input-container">
+<input type="text" id="customCurrency" placeholder="Custom Currency"/> <br>
+
+<button id="addCurrencyButton"> Add Currency 💴</button>    
+</div>
+</div>
+</body>
+</html>
